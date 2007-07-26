@@ -1,0 +1,52 @@
+NAME
+    Acme::Nothing - No more module loading!
+
+SYNOPSIS
+    Stops your script from loading any more modules.
+
+        use Acme::Nothing;
+        use Improbable;
+        use Fish;
+
+AUTHOR
+    No one.
+
+BUGS
+    Please report any bugs or feature requests to "bug-acme-nothing at
+    rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Acme-Nothing>. I will be
+    notified, and then you'll automatically be notified of progress on your
+    bug as I make changes.
+
+SUPPORT
+    You can find documentation for this module with the perldoc command.
+
+        perldoc Acme::Nothing
+
+    You can also look for information at:
+
+    *   AnnoCPAN: Annotated CPAN documentation
+
+        <http://annocpan.org/dist/Acme-Nothing>
+
+    *   CPAN Ratings
+
+        <http://cpanratings.perl.org/d/Acme-Nothing>
+
+    *   RT: CPAN's request tracker
+
+        <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Nothing>
+
+    *   Search CPAN
+
+        <http://search.cpan.org/dist/Acme-Nothing>
+
+ACKNOWLEDGEMENTS
+    Adam Kennedy, for everything.
+
+COPYRIGHT & LICENSE
+    Copyright 2007 Josh ben Jore, all rights reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
