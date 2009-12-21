@@ -1,0 +1,89 @@
+=head1 NAME
+
+Acme::Nothing - No more module loading !
+
+=head1 SYNOPSIS
+
+Stops your script from loading any more modules.
+
+    use Acme::Nothing;
+    use Improbable; # Nope!
+    use Fish;       # Not this either!
+    use CGI;        # Still not loading anything
+
+=head1 SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Acme::Nothing
+
+You can also look for information at:
+
+=over
+
+=item RT, CPAN's request tracker L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Nothing>
+
+=item AnnoCPAN, Annotated CPAN documentation L<http://annocpan.org/dist/Acme-Nothing>
+
+=item CPAN Ratings L<http://cpanratings.perl.org/d/Acme-Nothing>
+
+=item Search CPAN L<http://search.cpan.org/dist/Acme-Nothing>
+
+=back
+
+=head1 AUTHOR
+
+No one
+
+=head1 SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc Acme::Nothing
+
+You can also look for information at:
+
+=over
+
+=item * AnnoCPAN: Annotated CPAN documentation
+
+L<http://annocpan.org/dist/Acme-Nothing>
+
+=item * CPAN Ratings
+
+L<http://cpanratings.perl.org/d/Acme-Nothing>
+
+=item * RT: CPAN's request tracker
+
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Nothing>
+
+=item * Search CPAN
+
+L<http://search.cpan.org/dist/Acme-Nothing>
+
+=back
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2007, 2009 Josh ben Jore
+
+This program is distributed WITHOUT ANY WARRANTY, including but not
+limited to the implied warranties of merchantability or fitness for a
+particular purpose.
+
+The program is free software.  You may distribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation (either version 2 or any later version) and
+the Perl Artistic License as published by O’Reilly Media, Inc.  Please
+open the files named Copying and Artistic for a copy of these
+licenses.
+
+=begin emacs
+
+## Local Variables:
+## mode: pod
+## mode: auto-fill
+## End:
+
+=end emacs

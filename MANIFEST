@@ -1,7 +1,8 @@
-Changes
-MANIFEST
-META.yml # Will be created by "make dist"
-Makefile.PL
-README
 lib/Acme/Nothing.pm
-t/00-load.t
+lib/Acme/Nothing.pod
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+META.yml			# Will be created by "make dist"
+README
+t/load.t
