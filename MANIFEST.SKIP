@@ -1,7 +1,0 @@
-^\.git
-~$
-\.bak$
-\.old$
-\#
-^Makefile$
-^Acme-Nothing-

@@ -1,8 +1,0 @@
-lib/Acme/Nothing.pm
-lib/Acme/Nothing.pod
-Makefile.PL
-MANIFEST
-MANIFEST.SKIP
-META.yml			# Will be created by "make dist"
-README
-t/load.t

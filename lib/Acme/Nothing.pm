@@ -1,12 +1,11 @@
 package Acme::Nothing;
+# ABSTRACT: No more module loading!
 
 use strict;
 use 5.008;
 use warnings;
 
-our $VERSION = '0.02';
-
-open my $fh, '<', \$VERSION;
+open my $fh, '<', \$Acme::Nothing::VERSION;
 close $fh;
 
 @INC = sub {
@@ -19,3 +18,18 @@ Internals::SvREADONLY( $_, 1 ) for @INC;
 Internals::SvREADONLY( @INC, 1 );
 
 () = .0
+
+__END__
+
+=head1 NAME
+
+Acme::Nothing - No more module loading!
+
+=head1 SYNOPSIS
+
+Stops your script from loading any more modules.
+
+    use Acme::Nothing;
+    use Improbable; # Nope!
+    use Fish;       # Not this either!
+    use CGI;        # Still not loading anything

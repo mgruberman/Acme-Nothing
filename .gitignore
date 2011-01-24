@@ -1,6 +1,2 @@
-*~
-*.bak
-*.old
-*#*
-Makefile
-Acme-Nothing-*
+/.build
+/Acme-Nothing-*
